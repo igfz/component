@@ -1,0 +1,7 @@
+src/
+components/
+public/
+
+vue.config.js
+babel.config.js
+jsconfig.json

@@ -1,0 +1,25 @@
+.el-treeselect{
+  width: 100%;
+  .el-input__inner{
+    font-family: system-ui;
+  }
+}
+.el-treeselect-popper{
+  font-size: 12px;
+  .el-select-dropdown__item{
+    display: none;
+  }
+  .el-select-dropdown__wrap{
+    margin-bottom: 0 !important;
+    min-height: 160px;
+    overflow: auto;   // win 下有多余的滚动条
+  }
+  .el-checkbox__inner{
+    overflow: hidden; // 解决弹层左上角多一个白色小勾的bug
+  }
+  .is-current>.el-tree-node__content{
+    span+span{
+      color: var(--primary);
+    }
+  }
+}
